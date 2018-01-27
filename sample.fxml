@@ -25,20 +25,20 @@
   </rowConstraints>
    <children>
       <Label text="Input" GridPane.columnIndex="1" />
-      <TextField fx:id="in" onAction="#oblicz" GridPane.columnIndex="2" />
-      <RadioButton fx:id="inC" mnemonicParsing="false" onAction="#inputC" selected="true" text="Celcius" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <TextField fx:id="in" onAction="#input" GridPane.columnIndex="2" />
+      <RadioButton fx:id="inC" mnemonicParsing="false" onAction="#input" selected="true" text="Celcius" GridPane.columnIndex="1" GridPane.rowIndex="1">
          <toggleGroup>
             <ToggleGroup fx:id="wejscieG" />
          </toggleGroup></RadioButton>
-      <RadioButton fx:id="inF" mnemonicParsing="false" onAction="#inputF" text="Fahrenheit" toggleGroup="$wejscieG" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <RadioButton fx:id="inK" mnemonicParsing="false" onAction="#inputK" text="Kelvin" toggleGroup="$wejscieG" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <RadioButton fx:id="inF" mnemonicParsing="false" onAction="#input" text="Fahrenheit" toggleGroup="$wejscieG" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <RadioButton fx:id="inK" mnemonicParsing="false" onAction="#input" text="Kelvin" toggleGroup="$wejscieG" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <Label text="Output" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <RadioButton fx:id="outC" layoutX="38.0" layoutY="122.0" mnemonicParsing="false" onAction="#outputC" text="Celcius" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <RadioButton fx:id="outC" layoutX="38.0" layoutY="122.0" mnemonicParsing="false" onAction="#input" text="Celcius" GridPane.columnIndex="3" GridPane.rowIndex="1">
          <toggleGroup>
             <ToggleGroup fx:id="wyjscieG" />
          </toggleGroup></RadioButton>
-      <RadioButton fx:id="outF" layoutX="38.0" layoutY="202.0" mnemonicParsing="false" onAction="#outputF" text="Fahrenheit" toggleGroup="$wyjscieG" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <RadioButton fx:id="outK" layoutX="38.0" layoutY="282.0" mnemonicParsing="false" onAction="#outputK" selected="true" text="Kelvin" toggleGroup="$wyjscieG" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <RadioButton fx:id="outF" layoutX="38.0" layoutY="202.0" mnemonicParsing="false" onAction="#input" text="Fahrenheit" toggleGroup="$wyjscieG" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <RadioButton fx:id="outK" layoutX="38.0" layoutY="282.0" mnemonicParsing="false" onAction="#input" selected="true" text="Kelvin" toggleGroup="$wyjscieG" GridPane.columnIndex="3" GridPane.rowIndex="3" />
       <Label fx:id="wynikW" text="wynik" GridPane.columnIndex="2" GridPane.rowIndex="4" />
    </children>
 </GridPane>

@@ -38,35 +38,12 @@ public class Controller {
 
 
 
-    Obliczenia obliczenia = new Obliczenia();
+    private Obliczenia obliczenia = new Obliczenia();
 
-    public void inputC(ActionEvent actionEvent) {
-        przelicz();
-    }
 
-    public void inputF(ActionEvent actionEvent) {
-        przelicz();
-    }
 
-    public void inputK(ActionEvent actionEvent) {
-        przelicz();
-    }
-
-    public void outputC(ActionEvent actionEvent) {
-        przelicz();
-    }
-
-    public void outputF(ActionEvent actionEvent) {
-        przelicz();
-    }
-
-    public void outputK(ActionEvent actionEvent) {
-        przelicz();
-    }
-    public void oblicz(ActionEvent actionEvent) {
-        przelicz();
-    }
-    private void przelicz() {
+@FXML
+    private void input(ActionEvent actionEvent) {
 
         try {
             obliczenia.setTemp(Double.parseDouble(in.getText().replace(',','.')));
